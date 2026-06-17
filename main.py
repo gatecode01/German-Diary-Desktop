@@ -167,7 +167,7 @@ class DiaryApp:
             listbox.insert(tk.END, display_text)
         
         # متن نمایش خاطره
-        tk.Label(history_win, text="Memories Text:", font=('Vazir', 10, 'bold'),
+        tk.Label(history_win, text="Erinnerungstext:", font=('Vazir', 10, 'bold'),
                 bg='#ecf0f1').pack(pady=(10,0))
         
         history_text = scrolledtext.ScrolledText(history_win, wrap=tk.WORD,
